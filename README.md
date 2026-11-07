@@ -1,18 +1,71 @@
 <p align="center"><img src="assets/img/hero-lineup.jpg" alt="The AnimeStack house — eight seats, one sentence each, then a verdict" width="100%"></p>
 
-<h1 align="center">ANIMESTACK</h1>
+<h1 align="center">ANIME STACK PROJECT TURBO</h1>
 
-<p align="center"><em><strong>Eight seats. One sentence each. Then a verdict.</strong></em></p>
+<p align="center"><em><strong>Eight seats. One sentence each. Then a verdict — elevated into a central system for AI Project Engineering.</strong></em></p>
 
-<p align="center"><sub><strong>Release v2.0.0</strong> · canon Rev 9 · 10 hosts + the DSH team surface · one room, no votes</sub></p>
+<p align="center"><sub><strong>Release v2.0.0</strong> · canon Rev 9 · Forked from <a href="https://github.com/JerkyJesse/AnimeStack">JerkyJesse/AnimeStack</a> · 10 hosts + the DSH team surface + Antigravity Meta-Engineering Hub</sub></p>
 
 ---
 
-AnimeStack installs an eight-seat design house into an AI coding host. It is a room, not a persona pack: a ship must survive a failure review and a pre-registered falsifier before it touches anything. The same spine runs on every surface — a bug, a refactor, a release, a cull.
+**Anime Stack Project Turbo** (`swpatx/Anime-Stack-Project-Turbo`) is the Operator's AI Project Engineering fork of [**JerkyJesse/AnimeStack**](https://github.com/JerkyJesse/AnimeStack) — the eight-seat design house created by collaborator and son **JerkyJesse**.
+
+Upstream AnimeStack installs an eight-seat design house into an AI coding host so a single repository's changes survive a failure review and a pre-registered falsifier before touching production. **Project Turbo** turns that eight-seat house into a **meta-level AI Project Engineering System**: a central command hub where the eight seats engineer, audit, govern, and ship **entire multi-agent systems, prompt architectures, domain-specific specialist rosters, evaluation harnesses, cross-thread context handoffs, and turn-key release pipelines** across a portfolio of AI projects.
 
 The room is **Mei → Elo → MechaPip → Yui → Niko → Rin → Aria → Reika**, one sentence each. Reika frames. The room argues. Reika signs. Silence after Reika is the close.
 
 > **One box, one mechanism.** A twin that loses to a sibling is retired, not renamed. A number is a measurement or a hymn. Charm is not evidence; evidence is not destiny; destiny is not an instruction to act.
+
+---
+
+## How Project Turbo Uses AnimeStack for AI Project Engineering
+
+Most multi-agent setups fail in four predictable ways: **persona bloat** (ten lookalike agents with overlapping prompts), **thread-to-thread amnesia** (every new chat session forgets live state, commit hashes, and risk locks), **unverified hymns** (backtests or benchmarks reported without out-of-sample splits, controls, or real friction), and **boundary leaks** (agents touching live settings, launching blocking GUI processes, or leaking private paths into public repositories).
+
+In **Anime Stack Project Turbo**, the Operator runs a dedicated **AI Engineering** hub workspace where the eight AnimeStack seats act as the **architects and gatekeepers of all downstream AI projects**. Before any new agent roster, skill (`<project>/.agents/skills/<name>/SKILL.md`), workspace constitution (`<project>/AGENTS.md`), evaluation harness, or release pipeline is deployed into a target project, it descends the eight-seat loop:
+
+| # | Seat | AI Project Engineering Lane | What This Seat Engineers & Audits Across Downstream Projects | One Sentence |
+|---|---|---|---|---|
+| 1 | **Mei Sakuraba** | **Climate, Host & Context Stewardship** (`The Weather Read`) | Audits model ecosystem shifts, host capabilities (subagent spawning, tool schemas, MCP boundaries), and context-window budgets (`principles/doctrine/guard-the-context-window.md` — deep dossiers and project ledgers are loaded on demand, never bloated inline). | *What change in the world makes this obsolete?* |
+| 2 | **Elo Star** | **Evaluation Harnesses & Verification Bars** (`The Measurement`) | Designs project-level evaluation harnesses and verification bars (`docs/measurement.md`) — enforcing realized-only metrics, exact venue/spread/friction deductions, chronological first-half vs. second-half stability splits, and single-table scorecards so no agent system posts a hymn as a measurement. | *What does the crowd refuse to measure correctly?* |
+| 3 | **MechaPip** | **Cross-Project Pattern Retrieval** (`The Graveyard Pass`) | Retrieves architectural prior art across existing agent rosters, prompt topologies, and failure registries (`patterns/registry.json`) before a new agent or skill is minted; refuses lookalike persona packs when an existing mechanism already owns the lane. | *What has this pattern done before?* |
+| 4 | **Yui Aizawa** | **Prompt Mechanisms & Falsifiers** (`The Second Sample`) | Architects deterministic prompt instructions, state-lock invariants, and pre-registered falsifiers (`docs/claim-standard.md`, `claims/claim-004-project-turbo-hub.md`) — requiring every engineered skill, agent, or strategy engine to name the failure it prevents and the out-of-sample count that would retire it. | *What failure does this prevent, and what would falsify it?* |
+| 5 | **Niko Hoshino** | **System Topology, Routing & Isolation** (`The Cage`) | Designs physical workspace structure (`<project>/AGENTS.md`, `<project>/.agents/agents/`, `<project>/.agents/skills/`), subagent routing tables, thread-to-thread state handoffs, and strict sandboxing so agents never touch unowned files or live operator configuration. | *Where does it live, and what must it never touch?* |
+| 6 | **Rin Takamiya** | **Failure Guards, Cold Verify & Zero-Leak** (`The Red Once`) | Enforces hallucination and drift guards, destructive-command vetoes, cold verification passes on diffs without build reasoning, and the two-tier zero-leak gate (`scripts/check-leak` — preventing private paths, credentials, venues, or records from crossing into public trees). Closes `ACCEPT` or `END`. | *How does this fail, and how fast?* |
+| 7 | **Aria Kanzaki** | **Turn-Key Release & Gate Pipelines** (`The 47-Second Click`) | Engineers turn-key packaging, verification, and release skills — lockstep version stamping, headless test suites, executable rebuilds, and atomic GitHub releases that fire only when every gate is green. Closes `SHIP` or `STAND DOWN`. | *What ships, and what triggers it?* |
+| 8 | **Reika Kurogane** | **Mandate Framing & Final Verdict** (`The First Sentence`) | Sets the one-sentence mandate for every engineered AI system, enforces `One box, one mechanism` (`principles/law-10-one-box-one-mechanism.md`), presides over the two-round parallel subagent room descent, and signs the final verdict (`VERDICT: SHIP / RETIRE / STAND DOWN`). | *What are we building, in one sentence?* — then the verdict. |
+
+### The Four Pillars of the Project Turbo Engineering System
+
+1. **Multi-Agent Team Fabrication (Bounded Specialist Rosters)**
+   Instead of generic chat personas, the hub engineers cohesive, non-overlapping multi-agent systems tailored to each downstream domain — including **quantitative strategy & multi-venue trading terminals**, **harmonic & cycle analysis engines**, **multi-disciplinary medical/legal advocacy & care-coordination teams**, and **full-stack software engineering squads**. Every fabricated subagent carries a single role file, an explicit routing trigger, absorbed domain-specialist checklists, and a strict file/tool boundary (`Niko`'s cage + `Reika`'s `One box, one mechanism`).
+
+2. **Zero Thread-to-Thread Context Loss (`Context-Sync` Architecture)**
+   Long-running AI engineering projects break when a new conversation thread starts cold. Project Turbo engineers mandatory **startup context-load** and **end-of-turn handoff** skills (`<project>/SESSION_HANDOFF.md`) into every downstream system. Every session opens by reading the live release stamp, git HEADs, active configuration locks, and prior thread handoff before spawning a single subagent, and closes by writing the updated state back to disk.
+
+3. **The House Verification Bar (Elo + Yui Applied to Downstream Systems)**
+   Every quantitative, analytical, or diagnostic project engineered from this hub inherits a dedicated verification skill built on `docs/measurement.md` and `docs/claim-standard.md`:
+   - **Realized & Verifiable Evidence Only:** No blending of hypothetical mark-to-market estimates with settled outcomes; every citation, lab value, or count must resolve to a primary source or reproducible command.
+   - **Exact Friction & Cost Modeling:** Realistic spread, commission, and execution fill rules baked into every simulator and audit script.
+   - **Chronological Stability Splits:** Every backtest or evaluation sample is split chronologically (first half vs. second half, or multi-year quarterly buckets) and labeled with an explicit trajectory verdict (`IMPROVING`, `FLAT`, `DECAYING`, or `TOO EARLY`).
+   - **Single Clean Summary Table:** Every audit outputs one standardized comparison table with sample size, control baseline, drawdown/risk, stability trend, and disposition.
+
+4. **Turn-Key Release & Zero-Leak Gate Discipline (Rin + Aria)**
+   Every downstream release pipeline is engineered as a deterministic, non-destructive land chain:
+   - **Pre-Flight Safety Locks:** Agents are strictly barred from launching blocking GUI executables from shell tools, deleting files, or overwriting live user risk/toggle settings.
+   - **Lockstep Stamp + Headless Suite + Cold Verify:** Version stamps move in lockstep across code and docs, headless `pytest` and syntax gates run clean, and **Rin** performs a cold verification pass on the integrated diff before **Aria** executes the build and release tag.
+   - **Two-Tier Zero-Leak Gate (`scripts/check-leak`):** Public forks and open-source packs are guarded by `scripts/check-leak` across both working trees (`--tree`) and full git history (`--history`), ensuring nothing from private downstream projects ever crosses into a public repository.
+
+### Running the Eight-Seat Subagent Room in Antigravity
+
+When operating inside Google Antigravity (`AGENTS.md`, `skills/house/SKILL.md`):
+- **`/house` (Full Eight-Seat Descent):** Matches the task to one of the twelve playbooks under `skills/house/playbooks/` and runs the room.
+  - **Decision / Review Pass (Two Parallel Rounds):** Spawns `animestack-mei`, `animestack-elo`, `animestack-mechapip`, `animestack-yui`, `animestack-niko`, `animestack-rin`, and `animestack-aria` in parallel via `invoke_subagent` for Round 1 independent takes. Round 2 shares the full Round-1 table so each seat affirms, contests a named seat with a fact, or revises its sentence. **Reika** (`animestack-reika`) synthesizes and signs the closing `VERDICT`.
+  - **Construction / Build Pass (Sequential Lane Handoff):** Descends in fixed loop order (`Mei → Elo → MechaPip → Yui → Niko → Rin → Aria → Reika`), carrying every prior seat's one sentence and exact changed files into the next brief (`BUILT: <artifact>` or `NO BUILD SURFACE: <one line>`), followed by Rin's cold verification pass.
+- **Individual Seat Invocation:** Any seat can be spawned directly (`animestack-mei`, `animestack-elo`, `animestack-mechapip`, `animestack-yui`, `animestack-niko`, `animestack-rin`, `animestack-aria`, `animestack-reika`) for targeted architecture, measurement auditing, pattern lookup, mechanism design, security review, or release execution.
+- **`/simple` (Operator Waiver):** Plain build mode with no seats, no room, and no house voice; never signs (`no ACCEPT, no SHIP`).
+
+---
 
 ## The eight seats
 
@@ -55,7 +108,7 @@ Reversible and protective acts are never delayed by the loop. Niko can restart a
 ## Install
 
 ```bash
-git clone https://github.com/JerkyJesse/AnimeStack ~/animestack
+git clone https://github.com/swpatx/Anime-Stack-Project-Turbo ~/animestack
 cd ~/animestack
 ./setup --host <your host>       # claude, cursor, codex, factory, opencode, kiro,
                                  # slate, openclaw, hermes, gbrain, dsh, all, auto
@@ -121,6 +174,8 @@ Every count in this repository has a command. [docs/measurement.md](docs/measure
 
 ## Lineage
 
+**Anime Stack Project Turbo** (`swpatx/Anime-Stack-Project-Turbo`) is a fork of [**JerkyJesse/AnimeStack**](https://github.com/JerkyJesse/AnimeStack) (v2.0.0, canon Rev 9), built by **JerkyJesse**, extending the eight-seat design house into a central system for **AI Project Engineering** across multi-agent workspaces.
+
 AnimeStack is the refusal of three older schools, each written in the canon's pre-history: the **Oracles** (an answer that cannot close cannot pay), the **Machines** (speed is rented; the cage is owned), and the **Arena** (a leaderboard rewards variance; the record keeps survivors). The house kept the settled question, the cage, and the live record.
 
 An independent work inspired by [gstack](https://github.com/garrytan/gstack) (Garry Tan) and [pstack](https://github.com/cursor/plugins/pstack) (Lauren Tan), both MIT. Attributions in [NOTICE](NOTICE).
@@ -129,4 +184,4 @@ An independent work inspired by [gstack](https://github.com/garrytan/gstack) (Ga
 
 Dual-licensed: [AGPL-3.0-or-later](LICENSE), or a [commercial license](COMMERCIAL.md) for use without the AGPL's source-disclosure obligations.
 
-<p align="center"><sub><strong>THE EIGHT-SEAT HOUSE</strong> · one sentence each · then a verdict</sub></p>
+<p align="center"><sub><strong>ANIME STACK PROJECT TURBO · THE EIGHT-SEAT HOUSE</strong> · one sentence each · then a verdict</sub></p>
