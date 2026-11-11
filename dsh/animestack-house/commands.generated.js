@@ -1,4 +1,4 @@
-// animestack canon rev 9 :: inputs sha256=4cb4abe5e46ad8172d874d2af5f40bc5a85a99c7f436dda08fbf6d5c4c0bd9ca
+// animestack canon rev 9 :: inputs sha256=f77226eadf130ff1548d1301224a6715dccc8a845b6ecc2c69771917e343dd4a
 /**
  * AnimeStack - DeepSeek Harness operator commands.
  *
