@@ -739,7 +739,13 @@ def main(argv: list[str] | None = None) -> int:
         if args.event:
             return cmd_event(record_path, args)
         if args.read:
-            print(render_read(build_read(record_path, window=args.window)))
+            read_today = None
+            if args.date:
+                if not re.match(r"^\d{4}-\d{2}-\d{2}$", args.date.strip()):
+                    print("seat_record: --date must be YYYY-MM-DD", file=sys.stderr)
+                    return 2
+                read_today = datetime.strptime(args.date.strip(), "%Y-%m-%d").date()
+            print(render_read(build_read(record_path, window=args.window, today=read_today)))
             return 0
         if args.day:
             return cmd_day(record_path, args, root)

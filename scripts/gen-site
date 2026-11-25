@@ -695,7 +695,7 @@ def record_read(root: Path, values: dict[str, int]) -> str:
     end = release_date(root)
     rows = record_rows(root)
     summary = subprocess.run(
-        [sys.executable, str(root / "scripts" / "seat_record"), "--read", "--root", str(root)],
+        [sys.executable, str(root / "scripts" / "seat_record"), "--read", "--date", end, "--root", str(root)],
         capture_output=True, text=True, encoding="utf-8", timeout=120,
     )
     day_line = ""
